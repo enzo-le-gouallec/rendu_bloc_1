@@ -39,6 +39,9 @@ source venv/bin/activate
 # Installer les dépendances
 pip install fastapi uvicorn selenium beautifulsoup4 pandas requests python-dotenv pymysql pymongo pyjwt passlib pydantic SPARQLWrapper webdriver-manager
 
+```
+
+
 ## Structure de la Base de Données
 
 La conception de la base de données a été réalisée à l'aide de [MOCODO](https://mocodo.net/). Vous trouverez ci-dessous deux diagrammes illustrant la structure de la base de données :

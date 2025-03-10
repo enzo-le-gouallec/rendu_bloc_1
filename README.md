@@ -93,7 +93,7 @@ Pour remplir la base de données avec les informations relatives aux salons de c
 - **Variables d'environnement** :  
   Vérifiez que le fichier `.env` est correctement configuré avec les informations de connexion pour MySQL, MongoDB, etc.
 
-  ## Planification avec Crontab pour l'Export CSV
+## Planification avec Crontab pour l'Export CSV
 
 La commande suivante planifie l'exécution d'un script qui génère un fichier CSV à jour contenant la liste de tous les salons de coiffure disponibles sur Bordeaux tout les jours a 15 h 30 :
 

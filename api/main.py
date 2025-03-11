@@ -11,5 +11,5 @@ app.include_router(companies_to_target.router)
 
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenue sur l'API de gestion des démarchages de salons de coiffure"}
+    return {"message": "Bienvenue sur l'API de gestion des démarchages de salons"}
 

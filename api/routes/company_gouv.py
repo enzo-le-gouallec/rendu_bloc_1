@@ -9,7 +9,7 @@ router = APIRouter()
 
 
 
-@router.get("/company_gouv/", summary="Liste de touts les salon de coiffures")
+@router.get("/company_gouv/", summary="Liste de touts les salon de coiffures chez Planity")
 def get_companies(
     city_name: Optional[str] = Query(
         None, 
